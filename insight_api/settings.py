@@ -115,6 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_URLS_REGEX = r'^/api/.*$'
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
